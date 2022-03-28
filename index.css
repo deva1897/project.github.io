@@ -1,0 +1,282 @@
+body{
+    height: 100vh;
+    background-color:#f2f1f0;;
+    /* overflow-x: hidden; */
+}
+.main h3{
+    margin-left: 120px;
+    margin-top: 80px;
+    
+}
+.main p{
+    margin-left:1100px;
+    margin-top:-35px;
+    font-size: 20px;
+    
+}
+.main h1{
+    text-align: center;
+    margin-top:50px;
+    line-height:40px;
+    font-weight:300;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+span{
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient(rgb(255, 192, 236),rgb(204, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg{
+    font-size: 100px;
+    margin-top:-330px;
+   /* text-align: center; */
+   color: lightpink;
+   opacity: 0.1;
+   justify-content: left;
+}
+
+
+.bt{
+    font-size: 100px;
+    margin-top:-280px;
+margin-left: 500px;
+   color: lightpink;
+   opacity: 0.1;
+   position: absolute;
+}
+
+.line{
+    border:2px solid blue;
+    margin-top:50px;
+    width: 100px;
+}
+
+/* section2 */
+.section2{
+    position: relative;
+}
+.section2 h1{
+    margin-left: 190px;
+    margin-top: 120px;
+    font-weight: 200;
+    /* position:absolute; */
+}
+.match{
+ display: inline-block;
+ margin-top: -100px;
+ margin-left: 200px;
+ /* position:absolute; */
+ 
+ /* padding-left: 200px; */
+}
+.match h1{
+    margin-left: 15px;
+    font-size:40px;
+    color:palevioletred;
+}
+.match h2{
+    border-bottom: 2px solid gray;
+}
+.match p{
+    line-height: 25px;
+    font-size: 20px;
+    color:gray
+
+}
+
+.img_div img{
+    margin-left: 40px;
+    /* display:inline-block; */
+    margin-top: 100px;
+    /* padding-left: 40px; */
+    border-radius: 50%;
+
+}
+.page{
+    height: 800px;
+    width: 1340px;
+    background-color:lightgrey;
+    position:relative;
+    margin-top: 100px;
+}
+.page h1{
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+}
+button{
+    margin-left: 800px;
+    margin-top: 180px;
+    height:30px;
+    width:110px;
+    background-color: transparent;
+}
+.box{
+    /* position:absolute; */
+    margin-top: 50px;
+    display:inline-block;
+    margin-left: 50px;
+}
+.div img{
+    margin-left:340px;
+    width:1000px;
+    height:500px;
+    /* opacity: 0.8; */
+}
+.div h3{
+    font-size: 35px;
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-top:-240px;
+}
+.div h1{
+    margin-top:-420px;
+    margin-left:400px;
+    color:white;
+    font-size: 60px;
+    /* position: absolute; */
+
+}
+.div h2{
+    margin-top:-90px;
+    margin-left:480px;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+}
+.div p{
+    margin-left: 450px;
+    color: white;
+    font-size: 20px;
+}
+ul{
+display:inline-block;
+position: absolute;
+margin-top: -200px;
+margin-left: 100px;
+transform: rotate(-90deg);
+}
+li{
+    display:inline-block;
+    margin-left: 18px;
+    font-size: 18px;
+    border-bottom: 2px solid gray;
+}
+
+.our{
+    margin-top:300px;
+    margin-left: 350px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    /* color: gray; */
+    /* line-height: 40px; */
+}
+.our button{
+   margin-left: 10px;
+   margin-top: 100px;
+   color:white;
+   background-color: black;
+}
+
+
+.section_5{
+    background-color: #e6dfda;
+    position: relative;
+    /* margin-left: 200px; */
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.section_5 h1{
+   margin-left: 200px;
+   margin-bottom: 70px;
+   margin-top: -10px;
+}
+.section_5 h2{
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    /* position: absolute; */
+    font-weight: 100;
+}
+
+
+.Aim{
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.Aim h2{
+    margin-left: 0px;
+    border-bottom: 2px solid gray;
+   
+}
+.Aim h1{
+    position:absolute;
+    margin-left: 0px;
+    color: blueviolet;
+    font-size: 50px;
+}
+.Aim P{
+    font-size:18px;
+    line-height: 22px;
+}
+
+.container{
+    padding:100px;
+    background-color: lightgrey;
+}
+
+.col-sm{
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+.col-sm h4{
+    font-weight:20;
+    line-height: 20px;
+
+}
+ 
+
+footer{
+    background-color: black;
+    padding: 100px;
+    position: relative;
+}
+
+footer h1{
+    color:white;
+    font-weight: 100;
+}
+
+footer button{
+    background-color:blueviolet;
+    color: white;
+    width: 120px;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.min h3{
+    margin-top:80px;
+    color:white;
+    position: relative;
+}
+.min p{
+    margin-top:80px;
+    color:white;
+}
+
+  .last li{
+    color:white;
+    border-bottom: none;
+    margin-top:100px;
+    /* margin-left:100px; */
+    padding-right:-30px;
+    
+    
+    
+}
